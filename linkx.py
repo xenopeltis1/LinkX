@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import time
 import hashlib
 
-cluster = MongoClient("mongodb+srv://hkey:c452254k@cluster0.q5ds9.mongodb.net/users?retryWrites=true&w=majority")
+cluster = MongoClient("mongodbbağlantısı")
 db = cluster['linkx']
 linkler = db['linkler']
 kullanicilar = db['kullanicilar']
