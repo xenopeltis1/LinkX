@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/css/kisalt.css" />
+    </head>
+<body>
+<kafa>
+
+
+    <ul>
+        <div class="disdiv"><li class="duyurular"><a>Duyurular</a></li></div>
+        <li><a href="short">Link Kısalt</a></li>
+        <li><a href="index">Api Key</a></li>
+        <li><a href="links">Linklerim</a></li>
+    </ul>
+    <div>
+        <img src="static/img/beyazlogo.png" class="logo"></img>
+    </div>
+</kafa>
+
+<div class="kisaltlink">
+    <form class="linkkismi" method="POST">
+        <input type="url" placeholder="Link" class="urikutu" name="uribro">
+        <select class="kategori" name="kategori">
+            <option>Teknoloji</option>
+            <option>Sosyal Medya</option>
+            <option>Oyun</option>
+            <option>İndirme Linki</option>
+            <option>Diğer</option>
+        </select>
+        <button class="kisaltit">Kısalt</button>
+        <input class="ozellink" placeholder="Özel Link" name="ozellink">
+        <select class="limit" name="limit">
+            <option>Limitsiz</option>
+            <option>2</option>
+            <option>3</option>
+            <option>5</option>
+            <option>10</option>
+            <option>30</option>
+            <option>50</option>
+            <option>70</option>
+            <option>100</option>
+            <option>500</option>
+            <option>1000</option>
+        </select>
+        <input class="sifre" placeholder="Şifre" name="password">
+    </form>
+
+</div>
+
+<div class="stats">
+    <div class="linkstat">
+        <p>{{s1}}</p>
+        <p class="hernan">kısa link</p>
+    </div>
+    <div class="ziyaretstat">
+        <p>{{s2}}</p>
+        <p class="hernan">tıklanma</p>
+    </div>
+</div>
+
+</body>
+</html>

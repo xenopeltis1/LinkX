@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(0.2turn, #4d7752, #164c40);
+    align-items: center;
+}
+
+
+li{
+    transition: 0.5s;
+    list-style: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    margin: 45px;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display:table-cell;
+    vertical-align:middle;
+    
+
+}
+
+li a{
+    vertical-align: auto;
+}
+
+li:hover{
+    text-shadow: 0 5px 10px white, 0 5px 50px white, 0 5px 80px white;
+    cursor: pointer;
+}
+
+.logo{
+    width: 215px;
+    height: 55.5px;
+    margin-top:20px ;
+    margin-left: 50px;
+    display: block;
+    
+}
+
+.linkxyazi{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+
+.linkxyazialani{
+    width: 1150px;
+}
+
+.linkxyazi2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 700px;
+    margin-top: -20px;
+}
+
+.shortresim{
+    width: 200px ;
+    height: 200px;
+    margin-top: -150px;
+    margin-left: 80px;
+    
+}
+
+button{
+    background-color:  #9bc98e;
+    outline: none;
+    border:0;
+    margin:10px;   
+    width: 100px;
+    height: 30px;
+    border:1px solid  #9bc98e;
+    border-radius:24px;
+    margin-top: -20px;
+    color: white;
+
+    transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.one{
+    margin-left: 140px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #9bc98e, 0 0 50px #9bc98e, 0 0 80px #9bc98e;
+}
+
+.telegram{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top:80px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

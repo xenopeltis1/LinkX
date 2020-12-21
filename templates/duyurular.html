@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="static/css/duyurular.css" />
+</head>
+<body>
+
+    <kafa>
+
+        <ul>
+            <div class="disdiv"><li class="duyurular"><a>Giriş Yap</a></li></div>
+            <li><a>Link Kısalt</a></li>
+            <li><a>Api Key</a></li>
+            <li><a>Linklerim</a></li>
+        </ul>
+        <div>
+            <img src="static/img/beyazlogo.png" class="logo"></img>
+        </div>
+    </kafa>
+
+<div class="tumduyurular">
+        <o>
+            {%for _ in duyurus%}
+
+                <div class="duyurudur">{{_["content"]}}<li2>{{_["admin"]}} • {{_["date"]}}</li2></div>
+
+            {%endfor%}
+        <o>
+</div>
+
+</body>
+</html>

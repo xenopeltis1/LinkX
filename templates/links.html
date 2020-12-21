@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/css/links.css" />
+    </head>
+<body>
+<kafa>
+
+    <ul>
+        <div class="disdiv"><li class="duyurular"><a>Duyurular</a></li></div>
+        <li><a href="short">Link Kısalt</a></li>
+        <li><a href="index">Api Key</a></li>
+        <li><a href="links">Linklerim</a></li>
+    </ul>
+    <div>
+        <img src="static/img/beyazlogo.png" class="logo"></img>
+    </div>
+</kafa>
+
+
+
+<div class="allink">
+    <o>
+        {%for _ in linkler%}
+            <div class="birlink">
+                <a2 target="_blank" href="links.co/{{ _['uri'] }}">{{_["kategori"]}} + {{request.url_root}}{{_["key"]}}</a2>
+                <div class="buttons">
+                    <button class="stats1">Sil</button>
+                    <button class="stats2">Kapat</button>
+                    <button class="stats3">İstatistik</button>
+                </div>
+            </div>
+        {%endfor%}
+    </o>
+
+    
+</div>
+
+</body>
+</html>
